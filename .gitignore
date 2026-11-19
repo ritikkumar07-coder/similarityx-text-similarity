@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environment
+.venv/
+.streamlit/
+pip-wheel-metadata/
+.cache/
+.huggingface/
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+.env.*
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary output
+*.log
+*.tmp
+
+# Generated or local data
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
